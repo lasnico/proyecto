@@ -1,0 +1,15 @@
+body {
+    background: url(teamo.jpg);
+    -repeat: repeat;
+    
+
+}
+video {
+    margin:auto;
+    display:block;
+    border-radius:5px;
+    border: 11px solid rgb(17, 14, 172);
+}
+h1 {
+    color: rgb(202, 49, 195);
+}

@@ -1,0 +1,40 @@
+<html>
+
+
+<head></head>
+
+
+<body>
+    
+
+
+<script>
+    var contra= "020718";
+    contra = prompt ("pon tu password")
+    
+    if(contra =="020718")
+    {
+        alert("MUY BIEN PRINCESA");
+        document.write("Redireccionando");
+        var pagina= "pagina1.html"
+        function redireccionar()
+            {
+                 location.href = pagina 
+             }
+        
+    setTimeout("redireccionar()", 0);
+    }
+   else
+    {
+        alert("incorrecto");
+        var pagina= "error.html"
+        function redireccionar()
+        {
+            location.href=pagina
+        }
+    
+    setTimeout("redireccinar()", 1);
+   }
+</script>
+ </body>
+</html>
